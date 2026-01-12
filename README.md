@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Base Registry
+
+Base Registry is a Next.js application bootstrapped with create-next-app, designed to provide a modern web interface for blockchain registry management.
 
 ## Getting Started
 
-First, run the development server:
+To begin development, start the local development server using your preferred package manager. You may use npm, yarn, pnpm, or bun to run the development command:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the server is running, navigate to http://localhost:3000 in your web browser to view the application. The development environment supports hot module replacement, allowing you to see changes in real time as you modify the source code.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The main application entry point is located at `app/page.tsx`. Any modifications to this file will automatically trigger a page refresh in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project leverages the next/font package to automatically optimize and load Geist, a modern font family developed by Vercel. This optimization ensures improved performance and consistent typography across the application.
 
-## Learn More
+## Learning Resources
 
-To learn more about Next.js, take a look at the following resources:
+For developers new to Next.js or seeking to deepen their understanding of the framework, comprehensive documentation is available through the official Next.js Documentation at https://nextjs.org/docs. This resource covers all framework features and API references in detail.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Additionally, an interactive tutorial is available at https://nextjs.org/learn, providing hands-on experience with Next.js concepts and best practices.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The Next.js project is open source and actively maintained on GitHub at https://github.com/vercel/next.js. Community feedback and contributions are encouraged and welcomed.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The recommended deployment platform for Next.js applications is Vercel, created by the same team that develops Next.js. Vercel provides seamless integration and optimized hosting for Next.js projects.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To deploy your application, visit https://vercel.com/new and select your repository. The platform will automatically detect the Next.js framework and configure the appropriate build settings.
+
+For detailed information about deployment options, configuration, and best practices, consult the Next.js deployment documentation at https://nextjs.org/docs/app/building-your-application/deploying.
