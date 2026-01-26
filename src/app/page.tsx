@@ -121,7 +121,7 @@ export default function Home() {
       </main>
 
       <footer className="border-t py-8 text-center text-sm text-muted-foreground bg-muted/20">
-        <p>© {new Date().getFullYear()} BaseRegistry. Built on Base.</p>
+        <p>© {new Date().getFullYear()} BaseRegistry. Built on Base . Beta Version.</p>
       </footer>
     </div>
   )
